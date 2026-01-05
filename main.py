@@ -1,9 +1,7 @@
-from valutatrade_hub.cli.interface import run_cli
-
+from valutatrade_hub.cli import interface
 
 def main():
-    run_cli()
-
+    interface.run_cli()
 
 if __name__ == "__main__":
     main()

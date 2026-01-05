@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "finalproject-naydanov-leonid"
+version = "0.1.0"
+description = "Currency wallet console app"
+authors = ["Leonid Naydanov <najdanov.2020@stud.nstu.ru>"]
+readme = "README.md"
+packages = [{ include = "valutatrade_hub" }]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+prettytable = "*"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "*"
+
+[tool.poetry.scripts]
+project = "main:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
