@@ -1,9 +1,16 @@
 [
-    {
-        "user_id": 1,
-        "username": "alice",
-        "hashed_password": "b325553b719a249e422529f729fb6f031f5ddddd35f57380aedeb09558f01af0",
-        "salt": "9zXRn",
-        "registration_date": "2026-01-05T15:15:23.415380"
-    }
+  {
+    "user_id": 1,
+    "username": "testuser",
+    "hashed_password": "899bcc6470959c5d719a414b77ccfa8594e79f411992d62329e4767ceb78680d",
+    "salt": "9799cedeff057da3",
+    "registration_date": "2026-01-06T14:46:02.627433"
+  },
+  {
+    "user_id": 2,
+    "username": "user2",
+    "hashed_password": "b7769b9829cda77d18b40060331e24f769918a6d76e074eef3feace54810a6e7",
+    "salt": "afcb444d6fb20e2c",
+    "registration_date": "2026-01-06T14:46:11.617758"
+  }
 ]

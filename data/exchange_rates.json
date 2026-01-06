@@ -1,0 +1,297 @@
+[
+  {
+    "id": "BTC_USD_2026-01-06T14:30:18Z",
+    "from_currency": "BTC",
+    "to_currency": "USD",
+    "rate": 93781.0,
+    "timestamp": "2026-01-06T14:30:18.426696",
+    "source": "CoinGecko",
+    "meta": {
+      "sources": [
+        "coingecko",
+        "exchangerate"
+      ],
+      "pair": "BTC_USD"
+    }
+  },
+  {
+    "id": "ETH_USD_2026-01-06T14:30:18Z",
+    "from_currency": "ETH",
+    "to_currency": "USD",
+    "rate": 3239.85,
+    "timestamp": "2026-01-06T14:30:18.426696",
+    "source": "CoinGecko",
+    "meta": {
+      "sources": [
+        "coingecko",
+        "exchangerate"
+      ],
+      "pair": "ETH_USD"
+    }
+  },
+  {
+    "id": "SOL_USD_2026-01-06T14:30:18Z",
+    "from_currency": "SOL",
+    "to_currency": "USD",
+    "rate": 138.78,
+    "timestamp": "2026-01-06T14:30:18.426696",
+    "source": "CoinGecko",
+    "meta": {
+      "sources": [
+        "coingecko",
+        "exchangerate"
+      ],
+      "pair": "SOL_USD"
+    }
+  },
+  {
+    "id": "ADA_USD_2026-01-06T14:30:18Z",
+    "from_currency": "ADA",
+    "to_currency": "USD",
+    "rate": 0.420785,
+    "timestamp": "2026-01-06T14:30:18.426696",
+    "source": "CoinGecko",
+    "meta": {
+      "sources": [
+        "coingecko",
+        "exchangerate"
+      ],
+      "pair": "ADA_USD"
+    }
+  },
+  {
+    "id": "DOGE_USD_2026-01-06T14:30:18Z",
+    "from_currency": "DOGE",
+    "to_currency": "USD",
+    "rate": 0.150487,
+    "timestamp": "2026-01-06T14:30:18.426696",
+    "source": "CoinGecko",
+    "meta": {
+      "sources": [
+        "coingecko",
+        "exchangerate"
+      ],
+      "pair": "DOGE_USD"
+    }
+  },
+  {
+    "id": "BTC_USD_2026-01-06T14:30:26Z",
+    "from_currency": "BTC",
+    "to_currency": "USD",
+    "rate": 93781.0,
+    "timestamp": "2026-01-06T14:30:26.226643",
+    "source": "CoinGecko",
+    "meta": {
+      "sources": [
+        "coingecko",
+        "exchangerate"
+      ],
+      "pair": "BTC_USD"
+    }
+  },
+  {
+    "id": "ETH_USD_2026-01-06T14:30:26Z",
+    "from_currency": "ETH",
+    "to_currency": "USD",
+    "rate": 3239.85,
+    "timestamp": "2026-01-06T14:30:26.226643",
+    "source": "CoinGecko",
+    "meta": {
+      "sources": [
+        "coingecko",
+        "exchangerate"
+      ],
+      "pair": "ETH_USD"
+    }
+  },
+  {
+    "id": "SOL_USD_2026-01-06T14:30:26Z",
+    "from_currency": "SOL",
+    "to_currency": "USD",
+    "rate": 138.78,
+    "timestamp": "2026-01-06T14:30:26.226643",
+    "source": "CoinGecko",
+    "meta": {
+      "sources": [
+        "coingecko",
+        "exchangerate"
+      ],
+      "pair": "SOL_USD"
+    }
+  },
+  {
+    "id": "ADA_USD_2026-01-06T14:30:26Z",
+    "from_currency": "ADA",
+    "to_currency": "USD",
+    "rate": 0.420785,
+    "timestamp": "2026-01-06T14:30:26.226643",
+    "source": "CoinGecko",
+    "meta": {
+      "sources": [
+        "coingecko",
+        "exchangerate"
+      ],
+      "pair": "ADA_USD"
+    }
+  },
+  {
+    "id": "DOGE_USD_2026-01-06T14:30:26Z",
+    "from_currency": "DOGE",
+    "to_currency": "USD",
+    "rate": 0.150487,
+    "timestamp": "2026-01-06T14:30:26.226643",
+    "source": "CoinGecko",
+    "meta": {
+      "sources": [
+        "coingecko",
+        "exchangerate"
+      ],
+      "pair": "DOGE_USD"
+    }
+  },
+  {
+    "id": "BTC_USD_2026-01-06T14:47:22Z",
+    "from_currency": "BTC",
+    "to_currency": "USD",
+    "rate": 93815.0,
+    "timestamp": "2026-01-06T14:47:22.736058",
+    "source": "CoinGecko",
+    "meta": {
+      "sources": [
+        "coingecko",
+        "exchangerate"
+      ],
+      "pair": "BTC_USD"
+    }
+  },
+  {
+    "id": "ETH_USD_2026-01-06T14:47:22Z",
+    "from_currency": "ETH",
+    "to_currency": "USD",
+    "rate": 3240.36,
+    "timestamp": "2026-01-06T14:47:22.736058",
+    "source": "CoinGecko",
+    "meta": {
+      "sources": [
+        "coingecko",
+        "exchangerate"
+      ],
+      "pair": "ETH_USD"
+    }
+  },
+  {
+    "id": "SOL_USD_2026-01-06T14:47:22Z",
+    "from_currency": "SOL",
+    "to_currency": "USD",
+    "rate": 139.1,
+    "timestamp": "2026-01-06T14:47:22.736058",
+    "source": "CoinGecko",
+    "meta": {
+      "sources": [
+        "coingecko",
+        "exchangerate"
+      ],
+      "pair": "SOL_USD"
+    }
+  },
+  {
+    "id": "ADA_USD_2026-01-06T14:47:22Z",
+    "from_currency": "ADA",
+    "to_currency": "USD",
+    "rate": 0.421534,
+    "timestamp": "2026-01-06T14:47:22.736058",
+    "source": "CoinGecko",
+    "meta": {
+      "sources": [
+        "coingecko",
+        "exchangerate"
+      ],
+      "pair": "ADA_USD"
+    }
+  },
+  {
+    "id": "DOGE_USD_2026-01-06T14:47:22Z",
+    "from_currency": "DOGE",
+    "to_currency": "USD",
+    "rate": 0.150401,
+    "timestamp": "2026-01-06T14:47:22.736058",
+    "source": "CoinGecko",
+    "meta": {
+      "sources": [
+        "coingecko",
+        "exchangerate"
+      ],
+      "pair": "DOGE_USD"
+    }
+  },
+  {
+    "id": "BTC_USD_2026-01-06T14:47:30Z",
+    "from_currency": "BTC",
+    "to_currency": "USD",
+    "rate": 93815.0,
+    "timestamp": "2026-01-06T14:47:30.066727",
+    "source": "CoinGecko",
+    "meta": {
+      "sources": [
+        "coingecko"
+      ],
+      "pair": "BTC_USD"
+    }
+  },
+  {
+    "id": "ETH_USD_2026-01-06T14:47:30Z",
+    "from_currency": "ETH",
+    "to_currency": "USD",
+    "rate": 3240.36,
+    "timestamp": "2026-01-06T14:47:30.066727",
+    "source": "CoinGecko",
+    "meta": {
+      "sources": [
+        "coingecko"
+      ],
+      "pair": "ETH_USD"
+    }
+  },
+  {
+    "id": "SOL_USD_2026-01-06T14:47:30Z",
+    "from_currency": "SOL",
+    "to_currency": "USD",
+    "rate": 139.1,
+    "timestamp": "2026-01-06T14:47:30.066727",
+    "source": "CoinGecko",
+    "meta": {
+      "sources": [
+        "coingecko"
+      ],
+      "pair": "SOL_USD"
+    }
+  },
+  {
+    "id": "ADA_USD_2026-01-06T14:47:30Z",
+    "from_currency": "ADA",
+    "to_currency": "USD",
+    "rate": 0.421534,
+    "timestamp": "2026-01-06T14:47:30.066727",
+    "source": "CoinGecko",
+    "meta": {
+      "sources": [
+        "coingecko"
+      ],
+      "pair": "ADA_USD"
+    }
+  },
+  {
+    "id": "DOGE_USD_2026-01-06T14:47:30Z",
+    "from_currency": "DOGE",
+    "to_currency": "USD",
+    "rate": 0.150401,
+    "timestamp": "2026-01-06T14:47:30.066727",
+    "source": "CoinGecko",
+    "meta": {
+      "sources": [
+        "coingecko"
+      ],
+      "pair": "DOGE_USD"
+    }
+  }
+]

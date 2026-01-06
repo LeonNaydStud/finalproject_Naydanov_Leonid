@@ -9,6 +9,8 @@ packages = [{ include = "valutatrade_hub" }]
 [tool.poetry.dependencies]
 python = ">=3.12,<3.13"
 prettytable = "*"
+requests = "^2.32.5"
+schedule = "^1.2.2"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "*"
@@ -19,3 +21,10 @@ project = "main:main"
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.valutatrade]
+exchangerate_api_key = "ваш_ключ"
+data_path = "data"
+rates_ttl_seconds = 300
+default_base_currency = "USD"
+log_file = "logs/actions.log"

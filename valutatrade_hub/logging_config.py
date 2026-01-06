@@ -1,18 +1,51 @@
+"""
+Конфигурация логирования для приложения.
+"""
+
 import logging
-from logging.handlers import RotatingFileHandler
-import os
+import logging.handlers
+from pathlib import Path
 
-LOG_DIR = "logs"
-os.makedirs(LOG_DIR, exist_ok=True)
-log_file = os.path.join(LOG_DIR, "actions.log")
 
-logger = logging.getLogger("valutatrade_hub")
-logger.setLevel(logging.INFO)
+def setup_logging(log_file: str = "logs/actions.log", level: int = logging.INFO):
+    """
+    Настройка логирования с ротацией файлов.
 
-formatter = logging.Formatter(
-    "%(asctime)s %(levelname)s %(message)s", "%Y-%m-%dT%H:%M:%S"
-)
+    Args:
+        log_file: Путь к файлу логов
+        level: Уровень логирования
+    """
+    # Создаем директорию для логов, если её нет
+    log_path = Path(log_file)
+    log_path.parent.mkdir(parents=True, exist_ok=True)
 
-handler = RotatingFileHandler(log_file, maxBytes=1_000_000, backupCount=3)
-handler.setFormatter(formatter)
-logger.addHandler(handler)
+    # Настройка формата
+    formatter = logging.Formatter(
+        '%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S'
+    )
+
+    # Настройка ротации файлов (5 МБ, 3 файла бэкапа)
+    file_handler = logging.handlers.RotatingFileHandler(
+        log_file,
+        maxBytes=5 * 1024 * 1024,  # 5 MB
+        backupCount=3,
+        encoding='utf-8'
+    )
+    file_handler.setFormatter(formatter)
+    file_handler.setLevel(level)
+
+    # Консольный handler (опционально)
+    console_handler = logging.StreamHandler()
+    console_handler.setFormatter(formatter)
+    console_handler.setLevel(logging.WARNING)
+
+    # Настройка корневого логгера
+    root_logger = logging.getLogger()
+    root_logger.setLevel(level)
+    root_logger.addHandler(file_handler)
+    root_logger.addHandler(console_handler)
+
+    # Отключаем логирование для некоторых библиотек
+    logging.getLogger("urllib3").setLevel(logging.WARNING)
+    logging.getLogger("requests").setLevel(logging.WARNING)

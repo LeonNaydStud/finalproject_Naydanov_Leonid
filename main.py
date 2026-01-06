@@ -1,7 +1,10 @@
-from valutatrade_hub.cli import interface
+#!/usr/bin/env python3
+"""
+Главный модуль приложения валютного кошелька.
+"""
 
-def main():
-    interface.run_cli()
+import sys
+from valutatrade_hub.cli.interface import main
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main() or 0)
